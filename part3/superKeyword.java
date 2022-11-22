@@ -1,6 +1,6 @@
 package part3;
 
-public class superKeyword {
+public class SuperKeyword {
     /* The keyword 'super' in Java is used to refer to super-classes. When one class inherits
     from another it is said to be a subclass, and the class it inherits from is a superclass.
     The super keyword can be used to access variables or methods of a superclass from within
@@ -19,7 +19,7 @@ public class superKeyword {
     For example:
     */
 
-    public static void main(String[] args){
+    public static void main(String[] args) {
         // see classes 'part3.Animal' and 'part3.Dog' for full example
 
         Dog dog = new Dog();    // calls part3.Animal constructor from within part3.Dog constructor

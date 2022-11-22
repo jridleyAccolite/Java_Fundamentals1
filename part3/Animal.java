@@ -4,11 +4,11 @@ package part3;
 public class Animal {
     protected String classification = "part3.Animal";
 
-    public Animal(){
+    public Animal() {
         System.out.println("An animal was created.");
     }
 
-    public void speak(){
+    public void speak() {
         System.out.println("An animal is speaking...");
     }
 }

@@ -1,6 +1,6 @@
 package part4;
 
-public class finalModifier {
+public class FinalModifier {
     /* The 'final' keyword in Java is a non-access modifier that prevents further changes to
     what is assigned to in various ways. For example:
 
@@ -17,7 +17,7 @@ public class finalModifier {
     In code:
     */
 
-    public static void main(String[] args){
+    public static void main(String[] args) {
 
         final float pi = 3.14159f;  // declaring pi as final means its value cannot be changed
 

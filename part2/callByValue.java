@@ -1,6 +1,6 @@
 package part2;
 
-public class callByValue {
+public class CallByValue {
     /* In Java, all arguments are passed to functions by value.
 
     This means that when a variable is passed to a function, what actually happens is a *new* copy
@@ -12,14 +12,14 @@ public class callByValue {
     For example:
    */
 
-    public static void changeNumber(int n){
+    public static void changeNumber(int n) {
         // n is a *copy* of the int passed into the function
         n += 1;
         // n has now been incremented by 1, however the original int is unchanged
         System.out.println("within the function, n is: " + n);
     }
 
-    public static void main(String[] args){
+    public static void main(String[] args) {
         int a = 1;
 
         System.out.println("before the function, a is: " + a);

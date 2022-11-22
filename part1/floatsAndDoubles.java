@@ -1,6 +1,6 @@
 package part1;
 
-public class floatsAndDoubles {
+public class FloatsAndDoubles {
     /* Floats and doubles are primitive data types that store numbers with a component after a decimal
     point. They differ in that a float uses 4 bytes (32 bits) to store a value, whilst
     a double uses 8 bytes (64 bits), hence a double has *double* the precision that a float has.
@@ -18,7 +18,7 @@ public class floatsAndDoubles {
     to a float or double with greater precision than this.
     Hence, the following behaviour: */
 
-    public static void main(String[] args){
+    public static void main(String[] args) {
         float f = 10.1234567890123456789f; // will be truncated to 10.123457
         double d = 10.1234567890123456789; // will be truncated to 10.123456789012346
 

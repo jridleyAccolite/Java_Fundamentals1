@@ -16,19 +16,26 @@ public class Book {
     private String bname;
     private float price;
 
-    public Book(int number, String name, float price){
+    public Book(int number, String name, float price) {
         this.bno = number;
         this.bname = name;
         this.price = price;
     }
 
-    public int getNo(){ return this.bno; }
-    public String getName(){ return this.bname; }
-    public float getPrice(){ return this.price; }
+    public int getNo() {
+        return this.bno;
+    }
 
-    public void display(){
-        System.out.println("\nbookTask.Book details:\nbookTask.Book Number: " + getNo() + "\nbookTask.Book Name: " + this.getName() +
-                "\nbookTask.Book Price: £" + this.price);
+    public String getName() {
+        return this.bname;
+    }
+
+    public float getPrice() {
+        return this.price;
+    }
+
+    public void display() {
+        System.out.println("\nbookTask.Book details:\nbookTask.Book Number: " + getNo() + "\nbookTask.Book Name: " + this.getName() + "\nbookTask.Book Price: £" + this.price);
     }
 }
 

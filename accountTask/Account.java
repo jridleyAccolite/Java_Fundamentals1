@@ -14,12 +14,13 @@ public class Account {
     private String accountType;
     private float accountBalance;
 
-    void setAccountDetails(int number, String type, float balance){
+    void setAccountDetails(int number, String type, float balance) {
         this.accountNo = number;
         this.accountType = type;
         this.accountBalance = balance;
     }
-    void withdraw(float amount){
+
+    void withdraw(float amount) {
         if (amount > 0) {
             if (amount < this.accountBalance) {
                 System.out.println("Withdrawing £" + amount + " from account " + this.accountNo + "\n");
@@ -27,21 +28,21 @@ public class Account {
             } else {
                 System.out.println("Not enough balance to make withdrawal. Withdrawal rejected.");
             }
-        }
-        else{
+        } else {
             System.out.println("Error: withdrawal amount must be positive");
         }
     }
-    void deposit(int amount){
+
+    void deposit(int amount) {
         if (amount > 0) {
             System.out.println("Depositing £" + amount + " into account " + this.accountNo + "\n");
             this.accountBalance += amount;
-        }
-        else{
+        } else {
             System.out.println("Error: deposit amount must be positive");
         }
     }
-    void dispAccountDetails(){
+
+    void dispAccountDetails() {
         System.out.println("accountTask.Account details:\naccountTask.Account Number: " + accountNo + "\naccountTask.Account Type: " +
                 this.accountType + "\naccountTask.Account Balance: £" + this.accountBalance + "\n");
     }

@@ -1,6 +1,6 @@
 package part5;
 
-public class jvmArchitecture {
+public class JvmArchitecture {
     /* The JVM (Java Virtual Machine) is an abstract virtual machine within the lifecycle of a
     Java Application.
 
